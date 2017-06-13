@@ -1,0 +1,114 @@
+# Config File for XpExchange Minecraft Plugin
+# All negative potion types have been commented out
+# If you wish to activate or deactivate an effect type, use the comment character
+#'#' in front of the Effect as well as its duration and cost.
+
+effect-exchanges:
+    ABSORPTION: #Name of the Potion Effect. See here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+        duration: 2400 #Duration in server ticks (20 per second on a normal server, 1200 ticks per minute)
+        cost: 15 #Cost in XP Levels
+        enabled: true
+    BLINDNESS:
+        duration: 2400
+        cost: 15
+        enabled: false
+    CONFUSION:
+        duration: 2400
+        cost: 15
+        enabled: false
+    DAMAGE_RESISTANCE:
+        duration: 2400
+        cost: 15
+        enabled: true
+    FAST_DIGGING:
+        duration: 2400
+        cost: 15
+        enabled: true
+    FIRE_RESISTANCE:
+        duration: 2400
+        cost: 15
+        enabled: true
+    GLOWING:
+        duration: 2400
+        cost: 15
+        enabled: true
+    HARM:
+        duratin:
+        cost: 15
+        enabled: false
+    HEAL:
+        duration: 2400
+        cost: 15
+        enabled: true
+    HEALTH_BOOST:
+        duration: 2400
+        cost: 15
+        enabled: true
+    HUNGER:
+        duration: 2400
+        cost: 15
+        enabled: false
+    INCREASE_DAMAGE:
+        duration: 2400
+        cost: 15
+        enabled: true
+    INVISIBILITY:
+        duration: 2400
+        cost: 15
+        enabled: true
+    JUMP:
+        duration: 2400
+        cost: 15
+        enabled: true
+    LEVITATION:
+        duration: 2400
+        cost: 15
+        enabled: false
+    LUCK:
+        duration: 2400
+        cost: 15
+        enabled: true
+    NIGHT_VISION:
+        duration: 2400
+        cost: 15
+        enabled: true
+    POISON:
+        duration: 2400
+        cost: 15
+        enabled: false
+    REGENERATION:
+        duration: 2400
+        cost: 15
+        enabled: true
+    SATURATION:
+        duration: 2400
+        cost: 15
+        enabled: true
+    SLOW:
+        duration: 2400
+        cost: 15
+        enabled: false
+    SLOW_DIGGING:
+        duration: 2400
+        cost: 15
+        enabled: false
+    SPEED:
+        duration: 2400
+        cost: 15
+        enabled: true
+    UNLUCK:
+        duration: 2400
+        cost: 15
+        enabled: false
+    WATER_BREATHING:
+        duration: 2400
+        cost: 15
+        enabled: true
+    WEAKNESS:
+        duration: 2400
+        cost: 15
+        enabled: false
+    WITHER:
+        duration: 2400
+        cost: 15
+        enabled: false

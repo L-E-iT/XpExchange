@@ -1,0 +1,9 @@
+name: XpExchange
+version: 1.0.1
+author: BranFlakes
+main: com.branwidth.xpexchange.Main
+website: www.branwidth.com
+commands:
+      xpexchange:
+               description: List available exchanges
+               usage: /xpexchange list -  Value Examples = List, [Effect Name]
